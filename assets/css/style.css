@@ -1,0 +1,12 @@
+.ulName {
+    display: inline-block
+}
+.ulLinks {
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+}
+header {
+    border-color: gray;
+    border-bottom-style: solid;
+}
