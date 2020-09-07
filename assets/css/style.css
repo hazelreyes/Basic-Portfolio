@@ -5,19 +5,37 @@ body {
   margin: 0;
   padding: 0;
 }
+body {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-smoke-bb-5_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c8347a73d6427dda5d03bd1100c39354");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 header {
   text-align: center;
   margin-top: -30px;
+  height: 110px;
+  background-color: white;
 }
 .linksInHeader {
   width: 960px;
   display: inline-block;
 }
+a {
+  text-decoration: none;
+}
+.linkName {
+  color: white;
+}
 .name {
-  width: 200px;
-  line-height: 80px;
+  width: 230px;
+  height: 87px;
+  line-height: 90px;
   vertical-align: auto;
-  background-color: rgb(28, 184, 132);
+  background-color: rgb(76, 173, 253);
+}
+.linkList {
+  color: rgb(255, 122, 215);
 }
 ul {
   margin: -100px 0px 0px 680px;
@@ -27,30 +45,44 @@ ul li {
   list-style: none;
   display: inline-block;
   margin: 7px;
+  color: rgb(253, 141, 219);
 }
 .belowHeader {
-  margin-top: -21.5px;
+  margin-top: -1.5px;
+  border: 0;
   width: 100%;
+  height: 2px;
+  color: rgb(253, 141, 219);
+  background-color: rgb(253, 141, 219);
 }
 section {
   width: 900px;
   margin: 40px auto;
   border-style: solid;
-  border-color: gray;
+  border-color: rgb(255, 191, 236);
+  border-width: 1px;
   padding: 10px 30px 10px 30px;
+  background-color: white;
 }
 .aboutMeTitle {
   width: 200px;
+  color: rgb(76, 173, 253);
 }
 article {
   margin-top: 25px;
+}
+.belowAboutMe {
+  border: 0;
+  height: 2px;
+  color: rgb(255, 191, 236);
+  background-color: rgb(255, 191, 236);
 }
 .catPic {
   background-image: url(../images/cat.jpg);
   background-size: cover;
   margin-right: 25px;
-  width: 200px;
-  height: 130px;
+  width: 180px;
+  height: 134px;
   float: left;
   margin-top: 12px;
 }
@@ -65,13 +97,14 @@ footer {
   bottom: 0;
   height: 50px;
   width: 100%;
-  background-color: gray;
+  background-color: rgb(255, 84, 204);
   text-align: center;
   border-top: solid;
-border-top-color: rgb(28, 184, 132);
-border-top-width: 7px;
+  border-top-color: rgb(76, 173, 253);
+  border-top-width: 7px;
 }
 .copyrightP {
-margin-top: 20px;
-font-size: 10px;
+  margin-top: 20px;
+  font-size: 10px;
+  color: rgb(255, 191, 236);
 }
