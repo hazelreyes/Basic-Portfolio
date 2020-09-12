@@ -28,24 +28,26 @@ a {
   color: white;
 }
 .name {
-  width: 230px;
+  width: 270px;
   height: 87px;
   line-height: 90px;
   vertical-align: auto;
   background-color: rgb(76, 173, 253);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .linkList {
   color: rgb(255, 122, 215);
 }
 ul {
-  margin: -100px 0px 0px 680px;
+  margin: -80px 0px 0px 680px;
   position: absolute;
 }
 ul li {
   list-style: none;
   display: inline-block;
-  margin: 7px;
+  margin: 6px;
   color: rgb(253, 141, 219);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .belowHeader {
   margin-top: -1.5px;
@@ -67,6 +69,7 @@ section {
 .aboutMeTitle {
   width: 200px;
   color: rgb(76, 173, 253);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 article {
   margin-top: 25px;
@@ -75,7 +78,7 @@ article {
   border: 0;
   height: 2px;
   color: rgb(255, 191, 236);
-  background-color: rgb(255, 191, 236);
+  background-color: rgb(255, 215, 243);
 }
 .catPic {
   background-image: url(../images/cat.jpg);
@@ -91,6 +94,7 @@ p {
   font-size: 17px;
   line-height: 33px;
   margin-top: -12px;
+  color: rgb(255, 84, 204);
 }
 footer {
   position: fixed;
