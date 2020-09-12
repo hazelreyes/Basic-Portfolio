@@ -33,7 +33,7 @@ a {
   line-height: 90px;
   vertical-align: auto;
   background-color: rgb(76, 173, 253);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .linkList {
   color: rgb(255, 122, 215);
@@ -48,6 +48,9 @@ ul li {
   margin: 6px;
   color: rgb(253, 141, 219);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#straightLine {
+  color: rgb(255, 228, 247);
 }
 .belowHeader {
   margin-top: -1.5px;
@@ -66,15 +69,18 @@ section {
   padding: 10px 30px 10px 30px;
   background-color: white;
 }
-.aboutMeTitle {
+.aboutMeTitle,
+.contactTitle {
   width: 200px;
   color: rgb(76, 173, 253);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-article {
+article,
+form {
   margin-top: 25px;
 }
-.belowAboutMe {
+.belowAboutMe,
+.belowContact {
   border: 0;
   height: 2px;
   color: rgb(255, 191, 236);
@@ -95,6 +101,25 @@ p {
   line-height: 33px;
   margin-top: -12px;
   color: rgb(255, 84, 204);
+}
+#name, #email {
+  width: 99.1%;
+}
+#message {
+  width: 99.1%;
+  height: 170px;
+}
+button {
+  border: none;
+  color: white;
+  background-color: rgb(76, 173, 253);
+  height: 35px;
+  width: 107px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
 }
 footer {
   position: fixed;
