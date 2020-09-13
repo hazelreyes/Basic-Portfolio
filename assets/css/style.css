@@ -46,10 +46,9 @@ ul li {
   list-style: none;
   display: inline-block;
   margin: 6px;
-  color: rgb(253, 141, 219);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-#straightLine {
+.straightLine {
   color: rgb(255, 228, 247);
 }
 .belowHeader {
@@ -62,7 +61,7 @@ ul li {
 }
 section {
   width: 900px;
-  margin: 40px auto;
+  margin: 40px auto 100px;
   border-style: solid;
   border-color: rgb(255, 191, 236);
   border-width: 1px;
@@ -83,8 +82,7 @@ form {
 .belowContact {
   border: 0;
   height: 2px;
-  color: rgb(255, 191, 236);
-  background-color: rgb(255, 215, 243);
+  background-color: rgb(252, 172, 228);
 }
 .catPic {
   background-image: url(../images/cat.jpg);
@@ -102,12 +100,25 @@ p {
   margin-top: -12px;
   color: rgb(255, 84, 204);
 }
-#name, #email {
-  width: 99.1%;
+label {
+  color: rgb(252, 103, 207);
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0px -4px;
+  display: inline-block;
+  border: 2px solid rgb(252, 217, 241);
+  box-sizing: border-box;
+}
+::placeholder {
+  color: rgb(255, 122, 215);
+  opacity: 10;
 }
 #message {
-  width: 99.1%;
-  height: 170px;
+  height: 200px;
 }
 button {
   border: none;
@@ -119,7 +130,10 @@ button {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin: 10px 0 20px;
+}
+button:hover {
+  background-color: rgb(37, 139, 223);
 }
 footer {
   position: fixed;
