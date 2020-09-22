@@ -68,8 +68,19 @@ section {
   padding: 10px 30px 10px 30px;
   background-color: white;
 }
+.sectionPortfolio {
+  width: 900px;
+  height: 1150px;
+  margin: 40px auto 100px;
+  border-style: solid;
+  border-color: rgb(255, 191, 236);
+  border-width: 1px;
+  padding: 10px 30px 10px 30px;
+  background-color: white;
+}
 .aboutMeTitle,
-.contactTitle {
+.contactTitle,
+.portfolioTitle {
   width: 200px;
   color: rgb(76, 173, 253);
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -79,7 +90,8 @@ form {
   margin-top: 25px;
 }
 .belowAboutMe,
-.belowContact {
+.belowContact,
+.belowPortfolio {
   border: 0;
   height: 2px;
   background-color: rgb(252, 172, 228);
@@ -115,10 +127,16 @@ input {
 }
 ::placeholder {
   color: rgb(255, 122, 215);
-  opacity: 10;
 }
 #message {
-  height: 200px;
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0px -4px;
+  display: inline-block;
+  border: 2px solid rgb(252, 217, 241);
+  box-sizing: border-box;
+  height: 240px;
+  resize: none;
 }
 button {
   border: none;
@@ -134,6 +152,31 @@ button {
 }
 button:hover {
   background-color: rgb(37, 139, 223);
+}
+.bunnyWithCaption, .monkeyWithCaption, .hedgehogWithCaption, .pigWithCaption, .puppyWithCaption {
+position: relative;
+width: 280px;
+float: left;
+margin-right: 50px;
+}
+.bunny, .monkey, .hedgehog, .pigIceCream, .puppyGlasses {
+  margin-top: 50px;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+.caption1, .caption2, .caption3, .caption4, .caption5 {
+  position: absolute;
+  width: 280px;
+  height: 30px;
+  background: rgb(73, 164, 224);
+  color: white;
+  border-radius: 10%;
+  text-align: center;
+  font-size: large;
+  padding-top: 10px;
+  bottom: 5%;
+
 }
 footer {
   position: fixed;
