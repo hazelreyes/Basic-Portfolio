@@ -10,10 +10,15 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  height: 100%;
+}
+#page-container {
+  position: relative;
 }
 header {
   text-align: center;
   margin-top: -30px;
+  width: 100%;
   height: 110px;
   background-color: white;
 }
@@ -153,19 +158,31 @@ button {
 button:hover {
   background-color: rgb(37, 139, 223);
 }
-.bunnyWithCaption, .monkeyWithCaption, .hedgehogWithCaption, .pigWithCaption, .puppyWithCaption {
-position: relative;
-width: 280px;
-float: left;
-margin-right: 50px;
+.bunnyWithCaption,
+.monkeyWithCaption,
+.hedgehogWithCaption,
+.pigWithCaption,
+.puppyWithCaption {
+  position: relative;
+  width: 280px;
+  float: left;
+  margin-right: 50px;
 }
-.bunny, .monkey, .hedgehog, .pigIceCream, .puppyGlasses {
+.bunny,
+.monkey,
+.hedgehog,
+.pigIceCream,
+.puppyGlasses {
   margin-top: 50px;
   width: 280px;
   height: 280px;
   border-radius: 50%;
 }
-.caption1, .caption2, .caption3, .caption4, .caption5 {
+.caption1,
+.caption2,
+.caption3,
+.caption4,
+.caption5 {
   position: absolute;
   width: 280px;
   height: 30px;
@@ -176,12 +193,14 @@ margin-right: 50px;
   font-size: large;
   padding-top: 10px;
   bottom: 5%;
-
+}
+#content-wrap {
+  padding-bottom: 68.9px;
 }
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  height: 50px;
+  height: 54px;
   width: 100%;
   background-color: rgb(255, 84, 204);
   text-align: center;
@@ -194,3 +213,33 @@ footer {
   font-size: 10px;
   color: rgb(255, 191, 236);
 }
+
+@media screen and (max-width: 980px) {
+  .linksInHeader {
+    width: 880px;
+  }
+  ul {
+    margin: -80px 0px 0px 610px;
+  }
+  section {
+    width: 530px;
+    margin: 40px 48px 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .linksInHeader {
+    width: 730px;
+  }
+  ul {
+    margin-left: 450px;
+  }
+  section {
+    width: 665px;
+    margin-left: 20px;
+  }
+}
+
+/* @media screen and (max-width: 640px) {
+
+} */
